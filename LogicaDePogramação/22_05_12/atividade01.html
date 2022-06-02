@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+<script>
+
+    let notas = [];
+    
+    for(let n = 0; n < 5; n++){
+        let nota = parseFloat(prompt('Informe a sua nota'));
+        notas.push(nota);
+    }
+    let soma = 0;
+    for(let n = 0; n < notas.length; n++){
+        console.log(notas[n]);
+        soma = soma + notas[n];
+    }
+    console.log(soma);
+
+    let media = soma / 5;
+    console.log('Sua media e:' + media);
+
+
+
+</script>

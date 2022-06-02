@@ -1,0 +1,17 @@
+<script>
+
+    let ValorTotal = parseFloat(prompt('Digite o valor total da compra'))
+    let Desconto = ValorTotal * 0.05
+    let Pagamento = parseFloat(prompt('Escolha sua forma de pagamento Digitando o numeral de acordo com a forma desejada de pagar [ (1) a vista ] [ (2) cartao de debito ] [ (3) cartao de credito ]' ))
+    let FormaDesconto = (1,2)
+    let ValorFinal = ValorTotal - Desconto
+
+    if (Pagamento == 3){
+        console.log ('Devido ao pagamento ser no seu cartao de credito, nao havera desconto, sendo assim, o valor final de sua compra foi de $ ' + ValorTotal)
+        }
+    else if (FormaDesconto == 1,2){
+        console.log('o valor total da sua compra foi de $' + ValorTotal)
+        console.log('o valor de desconto foi $' + Desconto)
+        console.log('o valor de compra com desconto foi de $' + ValorFinal)
+        }
+</script>

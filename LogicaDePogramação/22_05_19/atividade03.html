@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+<script>
+
+    let casa = parseFloat(prompt('Informe o valor da casa'));
+    let salario = parseFloat(prompt('Informe seu salario'));
+    let Anos = parseFloat(prompt('Informe seu anos que deseja pagar'));
+
+    let meses = Anos * 12;
+    let prestacao = casa / meses;
+    let Apv = salario * 0.30;
+
+    if(prestacao <= Apv){
+        console.log('Voce esta apto em comprar seu imovel com uma prestacao ' + prestacao.toFixed(2) + ' e pagara em ' + meses + ' meses ')
+    } else if(prestacao >= Apv){
+        console.log('Voce não esta apto em comprar seu imovel pois sua prestacao ' + prestacao.toFixed(2) + ' compromete 30% da sua renda ')
+    }
+
+
+
+
+
+</script>
