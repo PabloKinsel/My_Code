@@ -1,0 +1,11 @@
+<meta charset="UTF-8">
+<script>
+
+    let Salario = parseFloat(prompt('Informe o valor do seu salario'));
+    let Dias = parseFloat(prompt('Informe quantos dias voce trabalha no mes'));
+    let Horas = parseFloat(prompt('Informe quantas horas voce trabalha no dia'));
+    let HorasMes = Dias * Horas
+    let ValorHora = Salario / HorasMes
+
+    console.log('Voce recebe R$' + ValorHora + ' por hora.')
+</script>

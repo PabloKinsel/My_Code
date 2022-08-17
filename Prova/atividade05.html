@@ -1,0 +1,24 @@
+<script>
+
+let nome = prompt('Insira o nome do funcionario');
+let salario = parseFloat(prompt('Informe o salario'));
+let anos = parseFloat(prompt('Informe quantos anos ele trabalha na empresa'));
+console.log('O nome do funcionario e ' + nome + ' recebe um salario de ' + salario + ' e trabalha na empresa ' + anos + ' anos');
+
+let Reajuste1 = salario * 0.03;
+let Reajuste2 = salario * 0.125;
+let Reajuste3 = salario * 0.2;
+if (anos >=0 && anos <= 3){
+        console.log('Reajuste de salario ' + (Reajuste1 + salario));
+    }
+ else if (anos >=4 && anos <= 10){
+        console.log('Reajuste de salario ' + (Reajuste2 + salario));
+    }
+else if (anos >= 11){
+        console.log('Reajuste de salario ' + (Reajuste3 + salario));
+    }
+
+
+
+
+</script>

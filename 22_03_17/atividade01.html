@@ -1,0 +1,26 @@
+<script>
+
+let notaA = parseFloat(prompt('Digite o valor da Prova 1'));
+let notaB = parseFloat(prompt('Digite o valor da Prova 2'));
+let notaC = parseFloat(prompt('Digite o valor da Prova 3'));
+
+let divisão = (notaA + notaB + notaC ) / 3;
+
+if (divisão >= 90) {
+    console.log('Parabens, voce foi aprovado')
+    console.log ('CONCEITO A')
+}
+if (divisão >= 70 && divisão <= 89){
+    console.log('Parabens, voce foi aprovado')
+    console.log ('CONCEITO B')
+}
+if (divisão >=50 && divisão <= 69){
+    console.log ('Voce Reprovou')
+    console.log('CONCEITO C')
+}
+if (divisão >=0 && divisão <= 49){
+    console.log('Voce Reprovou')
+    console.log ('CONCEITO D')
+}
+
+</script>

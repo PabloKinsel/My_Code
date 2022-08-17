@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+<script>
+    let Investimento = parseFloat(prompt('Insira o valor investido'));
+    let Juros = parseFloat(prompt('Insira a taxa de juros anual (apenas numeros)'));
+    let Dias = parseFloat(prompt('Insira a quantidade de dias que voce deixou rendendo'));
+    let LucroDiarios = Juros / 365;
+    let Porcentagem = LucroDiarios / 100;
+    let LucroAnual = (Investimento * Dias) * Porcentagem ; 
+    console.log('Seu lucro anual e de R$' + LucroAnual)
+    </script>
+    // For ( let dias = 1; dias <=30; dias++){
+        if (dias <= 30){
+            for (let aliquota = 96; aliquota >= 0; aliquota = aliquota - 3 ){
+                console.log ('Os dias investidos ' + dias + '\n juros de acordo com os dias' + aliquota)
+            } 
+        }
+    }

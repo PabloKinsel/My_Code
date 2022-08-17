@@ -1,0 +1,17 @@
+<script>
+
+    let Salario = parseInt(prompt('Informe o valor do salario'));
+    let ValorDesconto = 0;
+
+    if (Salario < 2000){
+        ValorDesconto = Salario * (10 / 100);
+    }else if (Salario < 2500){
+        ValorDesconto = Salario * (15 / 100);
+    }else {
+        ValorDesconto = Salario * (18 / 100);
+    }
+
+    let SalarioLiquido = Salario - ValorDesconto;
+    
+
+</script>

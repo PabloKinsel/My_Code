@@ -1,0 +1,25 @@
+<script>
+
+let segredo = 10;
+let NumeroDigitado = 0;
+let Tentativas = 0
+    
+    while (segredo != NumeroDigitado ){
+        NumeroDigitado = parseFloat(prompt('Descubra o segredo:'));
+    
+        if (segredo == NumeroDigitado){
+        alert('Voce Acertou ! ');
+    }else{
+        alert('Voce Errou ! ');
+        Tentativas ++
+    }
+    if ( Tentativas == 3){ 
+        NumeroDigitado = 10;
+        alert('Voce utilizou todas suas tentativas')
+    }
+    }
+
+
+
+
+</script>

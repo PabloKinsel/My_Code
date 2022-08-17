@@ -1,0 +1,21 @@
+<script>
+
+let comprimento = parseFloat(prompt('Informe o comprimento '));
+let largura = parseFloat(prompt('Informe a largura '));
+
+
+    let area = comprimento * largura;
+    console.log ('Sua terreno possui uma ' + area + 'm² ');
+
+
+    if(area >= 0 && area <= 100){
+        console.log('Seu terreno e popular')
+    }
+    else if(area >= 101 && area <= 500){
+        console.log('Seu terreno e master')
+    }
+    else if(area >= 501){
+        console.log('Seu terreno e vip')
+    }
+
+</script>

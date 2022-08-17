@@ -1,0 +1,16 @@
+<script>
+
+    let CapitalInicial = parseFloat(prompt('Digite seu capital investido'));
+    let CApitalFinal = parseFloat(prompt('Digite seu capital Final'));
+    let Resultado = CApitalFinal - CapitalInicial
+    let Porcentagem = CApitalFinal / CapitalInicial
+    let Porcentagem01 = (Porcentagem - 1) * 100
+
+    if(Resultado>0){
+        console.log('Voce teve um lucro de ' + Resultado + ' Sendo assim, voce teve um lucro de ' + Porcentagem + '%')
+    }
+    else if(Resultado<0){
+        console.log('Voce teve um prejuizo de ' + Resultado + 'Sendo assim,voce teve um prejuizode ' + Porcentagem + '%')
+    }
+    
+</script>
